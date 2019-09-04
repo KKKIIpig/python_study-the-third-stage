@@ -69,6 +69,8 @@ class Master:
 pet1 = Cat('June','蓝猫')
 pet2 = Dog('July','柴犬')
 pet3 = Pig('October','香猪')
-master1 = ('kiki',pet1)
-master2 = ('mo',pet2)
-master3 = ('albert',pet3)
+master1 = Master('kiki',pet1)
+master2 = Master('mo',pet2)
+master3 = Master('albert',pet3)
+
+master1.feed()
